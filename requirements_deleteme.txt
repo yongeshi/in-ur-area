@@ -1,0 +1,59 @@
+This only loads on MAMP where php is able to load on localhost
+
+requirements
+-HTML, CSS, JS, SQL, PHP
+
+-Check with this after finished
+https://validator.w3.org/
+
+-External stylesheet
+At least one (1) external stylesheet that includes CSS that is shared among multiple pages (e.g. CSS for the navigation menu).
+(HEADER, FOOTER)
+
+Javascript (jQuery)
+-ALL input must be validated first by JavaScript
+-at least one event handler (click, hover, keypress, etc) for a meaningful interaction in at least one page that is NOT related to input validation
+-^^^ Can I do onclick for logout?
+
+
+PHP
+-Use MySQLi to connect and interact with the database.
+-All MySQLi errors as discussed in class are checked and handled.
+CRUD functionality 
+-Web application needs to Create, Retrieve, Update, and Delete records from the database.
+-You can allow any user to CRUD or only allow privileged users to perform certain actions (e.g. only admin users can delete records).
+-Handle any user input errors, even if JavaScript already does so.
+
+
+-Find out why I cant just get rid of mapLatitude in index.php and all other pages with search and replace in map listener the latitude.value to location/longitude instead of mapLatitude
+
+-Implement so if your logged in, and you click add to favorite, it adds restaurant info to database
+same with remove - details.php very bottom script function addtoFavorite()/remove
+
+-if someone clicks favorite, make sure it grabs the right restaurants from database and displays it
+
+-change in database rating to string 
+
+-Do i need to change all sql statements to have . ";";?
+
+-fix login problem/not displaying logout and favorites after redirecting
+
+favorites pages not working
+
+search not working for inputs, but only hardcoded values
+addfavorite and removefavorite functions not working...
+
+
+
+
+
+
+
+
+****Have it automatically fill in latitude and longitude for you when you load page. Is this possible?
+
+-in details.php, the addtoFavorite() always adds to Restaurants db and into FavoriteRestaurants with current user, however, it doesn't need to add to Restaurants if there is an exact instance there. Change if you have time!
+
+-Did not implement sortby button in favorites.php
+
+-remove button not working .--------. not printing either. UGH

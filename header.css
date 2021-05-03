@@ -1,0 +1,17 @@
+#header {
+    height: 55px; 
+    padding: 5px;
+}
+#header a {
+    font-family: Helvetica;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 120%;
+}
+#logo a {
+    font-family: Lobster;
+    margin-top: 6px;
+    color: white;
+    font-size: 100%;
+}
