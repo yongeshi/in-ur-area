@@ -1,5 +1,6 @@
 # Website using Yelp/Google API, PHP, Boostrap, jQuery, MySQL
-Search for information on nearby restaurants and login to save to favorites.
+Search for information on nearby restaurants <br/>
+and login to save to favorites.
 
 On my website, you will be able to login and search for nearby restaurants and its rating. It uses Yelp’s database to get information on the restaurants and saves the information in??***** MySQL when requested. This website is for people who want to be able to search for restaurants and save restaurants for future reference. It is an alternative to Yelp and features a super minimalistic and easy to navigate design.
 
