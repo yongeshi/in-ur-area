@@ -26,7 +26,8 @@ Database structure:
 
 ![image](https://user-images.githubusercontent.com/54614988/125999433-06ca1796-e548-462b-82e0-3134e971eef3.png)
 
-In details.php line 632, after pressing the “Add to Favorites” button it makes an ajax call to add_favorite.php which inserts the restaurant in the Restaurants table and inserts into FavoriteRestaurants with the user’s ID.
-In favorites.php line 5-25, on page load, if there is data in the tables, It will display the restaurants added to your favorites.
-In details.php, the add to favorites/remove from favorites, will update/remove the existing restaurants and then delete/insert into the FavoriteRestaurants table.
-In details.php line 613, after pressing the “Remove from Favorites” button it deletes/removes the restaurant in the Restaurants table and removes from FavoriteRestaurants with the user’s ID.
+Where the database is used: <br/>
+-In details.php line 632, after pressing the “Add to Favorites” button it makes an ajax call to add_favorite.php which inserts the restaurant in the Restaurants table and inserts into FavoriteRestaurants with the user’s ID. <br/>
+-In favorites.php line 5-25, on page load, if there is data in the tables, It will display the restaurants added to your favorites. <br/>
+-In details.php, the add to favorites/remove from favorites, will update/remove the existing restaurants and then delete/insert into the FavoriteRestaurants table. <br/>
+-In details.php line 613, after pressing the “Remove from Favorites” button it deletes/removes the restaurant in the Restaurants table and removes from FavoriteRestaurants with the user’s ID.
