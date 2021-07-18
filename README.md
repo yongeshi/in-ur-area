@@ -12,15 +12,8 @@ Some of the features implemented: <br/>
 
 I used a Yelp API for information on the restaurants. It can be found in yelp_backend.php and yelp.js. I also used a Google API so people can use there maps to set a location when searching for a restaurant. This can be found on index.php line 301, via the “Set Location” button.
 
-Yelp API: https://www.yelp.com/developers/documentation/v3/business_search
-
+Yelp API: https://www.yelp.com/developers/documentation/v3/business_search <br/>
 Google API: https://developers.google.com/maps/documentation/javascript/overview
-
-CSS libraries/frameworks: 
-Bootstrap
-
-JavaScript libraries/frameworks: 
-jQuery
 
 **Backend**:
 Database structure:
@@ -35,6 +28,6 @@ Where the database is used: <br/>
 
 
 Installing and Running on Your Machine: <br /> 
-These are PHP files and will not open like standard HTML files. If you wish to open the files, you can download MAMP which is free and easy to download. MAMP will not compromise any existing Apache installation already running on your system. For the database, I used MySQL which provides a nice looking GUI.
+These are PHP files and will not open like standard HTML files. If you wish to open the files, you can download MAMP which is free and easy to download. MAMP will not compromise any existing Apache installation already running on your system. For the database, you can download the .sql file provided above (restaurant_database.sql). I also used MySQL which provided a nice looking GUI.
 
 In order to connect to your local database, change the information in config.php (username, pass, etc) with your DB credentials.
