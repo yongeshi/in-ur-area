@@ -2,7 +2,7 @@
 Search for information on nearby restaurants <br/>
 and login to save to favorites.
 
-On my website, you will be able to login and search for nearby restaurants and its rating. It uses Yelp’s database to get information on the restaurants and saves the information in??***** MySQL when requested. This website is for people who want to be able to search for restaurants and save restaurants for future reference. It is an alternative to Yelp and features a super minimalistic and easy to navigate design.
+On my website, you will be able to login and search for nearby restaurants and its rating. It uses Yelp’s database to get information on the restaurants and saves the information in a database when requested. This website is for people who want to be able to search for restaurants and save restaurants for future reference. It is an alternative to Yelp and features a super minimalistic and easy to navigate design.
 
 Some of the features implemented: <br/>
 -a navbar/header on the top with logo/home which will redirect you back to the home page and login/logout. <br/>
@@ -35,6 +35,6 @@ Where the database is used: <br/>
 
 
 Installing and Running on Your Machine: <br /> *?prob more you need to do zzzzzzzzzzzzzzzzzzzzzzz to get it to work? <br/>
-These are PHP files and will not be able to be opened like a standard HTML file. If you wish to open the files, you can download MAMP which is free and easy to download. MAMP will not compromise any existing Apache installation already running on your system. For the database, I used MySQL.
+These are PHP files and will not open like a standard HTML file. If you wish to open the files, you can download MAMP which is free and easy to download. MAMP will not compromise any existing Apache installation already running on your system. For the database, I used MySQL which is provides a nice looking GUI.
 
-In order to get this to work, you need to change the information (username, pass, etc) in config.php to your DB credentials.
+In order to connect to your local database, change the information in config.php (username, pass, etc) with your DB credentials.
