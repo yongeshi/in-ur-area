@@ -29,5 +29,5 @@ These are PHP files and will not open like standard HTML files. If you wish to o
 
 In order to connect to your local database, change the information in config.php (username, pass, etc) with your DB credentials.
 
-Demo:
+Demo/view: <br/>
 https://in-ur-area.herokuapp.com/index.php
