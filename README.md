@@ -34,7 +34,7 @@ Where the database is used: <br/>
 -In details.php line 613, after pressing the “Remove from Favorites” button it deletes/removes the restaurant in the Restaurants table and removes from FavoriteRestaurants with the user’s ID.
 
 
-Installing and Running on Your Machine: <br /> *?prob more you need to do zzzzzzzzzzzzzzzzzzzzzzz to get it to work? <br/>
-These are PHP files and will not open like a standard HTML file. If you wish to open the files, you can download MAMP which is free and easy to download. MAMP will not compromise any existing Apache installation already running on your system. For the database, I used MySQL which is provides a nice looking GUI.
+Installing and Running on Your Machine: <br /> 
+These are PHP files and will not open like standard HTML files. If you wish to open the files, you can download MAMP which is free and easy to download. MAMP will not compromise any existing Apache installation already running on your system. For the database, I used MySQL which is provides a nice looking GUI.
 
 In order to connect to your local database, change the information in config.php (username, pass, etc) with your DB credentials.
