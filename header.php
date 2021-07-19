@@ -8,7 +8,6 @@
 				<a href="login_sign_up.php">Login / Sign Up</a>
 			
 			<?php else: ?>
-				<a href="index.php">Home</a>
 				<a href="favorites.php">Favorites</a>
 				<a id="logout" href="logout.php">Logout</a> 				
 			<?php endif; ?>
