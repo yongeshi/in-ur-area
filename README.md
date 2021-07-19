@@ -1,8 +1,5 @@
-# Website using Yelp/Google API, PHP, Boostrap, jQuery, MySQL
-Search for information on nearby restaurants <br/>
-and login to save to favorites.
-
-On my website, you will be able to login and search for nearby restaurants and its rating. It uses Yelp’s database to get information on the restaurants and saves the information in a database when requested. This website is for people who want to be able to search for restaurants and save restaurants for future reference. It is an alternative to Yelp and features a super minimalistic and easy to navigate design.
+# InUrArea
+Login and search for nearby restaurants with ease. My website uses Yelp’s database to get information on the restaurants and saves the information in a database when requested. This website is for people who want to be able to search for restaurants and save restaurants for future reference. It is an alternative to Yelp and features a super minimalistic and easy to navigate design.
 
 Some of the features implemented: <br/>
 -a navbar/header on the top with logo/home which will redirect you back to the home page and login/logout. <br/>
@@ -12,15 +9,8 @@ Some of the features implemented: <br/>
 
 I used a Yelp API for information on the restaurants. It can be found in yelp_backend.php and yelp.js. I also used a Google API so people can use there maps to set a location when searching for a restaurant. This can be found on index.php line 301, via the “Set Location” button.
 
-Yelp API: https://www.yelp.com/developers/documentation/v3/business_search
-
+Yelp API: https://www.yelp.com/developers/documentation/v3/business_search <br/>
 Google API: https://developers.google.com/maps/documentation/javascript/overview
-
-CSS libraries/frameworks: 
-Bootstrap
-
-JavaScript libraries/frameworks: 
-jQuery
 
 **Backend**:
 Database structure:
@@ -35,6 +25,9 @@ Where the database is used: <br/>
 
 
 Installing and Running on Your Machine: <br /> 
-These are PHP files and will not open like standard HTML files. If you wish to open the files, you can download MAMP which is free and easy to download. MAMP will not compromise any existing Apache installation already running on your system. For the database, I used MySQL which provides a nice looking GUI.
+These are PHP files and will not open like standard HTML files. If you wish to open the files, you can download MAMP which is free and easy to download. MAMP will not compromise any existing Apache installation already running on your system. For the database, you can download the .sql file provided above (restaurant_database.sql). I also used MySQL which provided a nice looking GUI.
 
 In order to connect to your local database, change the information in config.php (username, pass, etc) with your DB credentials.
+
+Demo/view: <br/>
+https://in-ur-area.herokuapp.com/index.php
