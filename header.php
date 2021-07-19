@@ -5,7 +5,6 @@
 	
 	<div id="right">
 			<?php if(!isset($_SESSION["logged_in"])) : ?>
-				<a id = "home" href="index.php">Home</a>
 				<a href="login_sign_up.php">Login / Sign Up</a>
 			
 			<?php else: ?>
