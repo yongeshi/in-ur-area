@@ -7,7 +7,7 @@ Some of the features implemented: <br/>
 -On the homepage, you can search for restaurants by name and location as well as an option to sort the results. You can either enter your location with latitude/longitude or a button to the right called “Set Location” where a map will pop up (centered on the US), and you can click on any location on the map and it will populate the latitude/longitude for you. <br/>
 -After searching, it will bring you to the search results page where you can search again on the top. If you click on the picture of a restaurant on the search results page, it will pull up a more detailed page of the restaurant with more information about the restaurant and an option to add it to your favorites list.
 
-I used a Yelp API for information on the restaurants. It can be found in yelp_backend.php and yelp.js. I also used a Google API so people can use there maps to set a location when searching for a restaurant. This can be found on index.php line 301, via the “Set Location” button.
+I used a Yelp API for information on the restaurants. It can be found in yelp_backend.php and yelp.js. I also used a Google API so people can use Google Maps to set a location when searching for a restaurant. This can be found on index.php line 301, via the “Set Location” button.
 
 Yelp API: https://www.yelp.com/developers/documentation/v3/business_search <br/>
 Google API: https://developers.google.com/maps/documentation/javascript/overview
